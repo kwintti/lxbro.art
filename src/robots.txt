@@ -2,4 +2,28 @@
 
 # Allow crawling of all content
 User-agent: *
-Disallow:
+Allow: /
+
+# DENY KNOWN AI/LLM TRAINING CRAWLERS
+User-agent: GPTBot
+Disallow: /
+
+User-agent: Google-Extended
+Disallow: /
+
+User-agent: CCBot
+Disallow: /
+
+User-agent: ChatGPT-User
+Disallow: /
+
+User-agent: Omgili
+Disallow: /
+
+User-agent: anthropic-ai
+Disallow: /
+
+User-agent: ClaudeBot
+Disallow: /
+
+
